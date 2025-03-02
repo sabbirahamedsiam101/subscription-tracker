@@ -1,5 +1,5 @@
 import express from 'express';
-import { PORT } from './config/env.js';
+import { PORT , DB_URI } from './config/env.js';
 import authRouter from './routers/auth.routes.js';
 import userRouter from './routers/user.routes.js';
 import subscribtionRouter from './routers/subscribtion.routes.js';
